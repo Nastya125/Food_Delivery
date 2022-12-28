@@ -1,7 +1,20 @@
+/* Обычный */
+@font-face {
+	font-family: 'Poppins'; 
+	src: url('./fonts/Poppins-Regular.ttf'); 
+}
+ 
+/* Жирный */
+@font-face {
+	font-family: 'Poppins bold'; 
+	src: url('./fonts/Poppins-Bold.ttf'); 
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins';
 }
 
 .home{
@@ -21,6 +34,11 @@
     display: inline;
 }
 
+.logo__img{
+    width: 32px;
+    height: 32px;
+}
+
 ul{
     display: inline; 
     margin-left: 352px;
@@ -35,11 +53,6 @@ li{
     margin-right: 56px;
 }
 
-.logo__img{
-    width: 32px;
-    height: 32px;
-}
-
 input{
     margin-left: 104px;
 }
@@ -47,14 +60,16 @@ input{
 .basket{
     width: 750px;
     height: 712px;
+    position: absolute;
+    left: 650px;
+    top: 100px;
 }
-
-
 
 h1{
     color: #2f2f2f;
     font-weight: 700;
     font-size: 52px;
+    line-height: 49px;
     display: inline-block;
     width: 211px;
     margin-left: 18px;
@@ -106,11 +121,10 @@ h2{
 
 .wrapper{
     display: block;
-    width: 268px;
+    width: 568px;
     margin-top: 24px;
 }
 
 .company__descr{
-    display: inline-block;
     margin-top: 152px;
 }
